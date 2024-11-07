@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum de videos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="album-container">
+            <button class="back-button" onclick="goBackToMenu()">Volver al Menú</button>
+            <h2 id="album-title">Álbum de videos</h2>
+            <input type="file" id="fileInput" accept="image/*, video/*">
+            <button onclick="uploadContent()">Subir Contenido</button>
+            <div id="gallery"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
